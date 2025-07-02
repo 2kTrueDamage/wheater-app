@@ -1,0 +1,18 @@
+.weather-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.app {
+    background-color: rgb(207, 231, 247);
+    min-height: 100vh;
+}
