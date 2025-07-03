@@ -1,8 +1,21 @@
+:root {
+    --bg-color: #72b5f7;
+    --text-color: white;
+}
+
+.dark {
+    --bg-color: #fa8e35;
+    --text-color: white;
+}
+
+
 .footer-container {
-    background: linear-gradient(135deg, #72b5f7 0%, #4a90e2 100%);
-    color: white;
+    background-color: var(--bg-color);
+    color: var(--text-color);
     height: 10vh;
     box-shadow: 0 20px 30px rgb(0, 0, 0);
+    transition: background 0.3s, color 0.3s;
+    overflow: hidden;
 }
 
 .footer-high {
@@ -16,6 +29,7 @@
     position: absolute;
     bottom: 0%;
     right: 0%;
+    display: flex;
 }
 
 ul {
@@ -37,4 +51,14 @@ ul li {
     margin-right: 30px;
     cursor: pointer;
     text-align: center;
+}
+
+img {
+    height: 50px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.30);
 }

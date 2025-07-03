@@ -8,6 +8,7 @@ import './App.css'
 
 
 
+
 const App = () => {
   const weatherData1 = {
     city: "Москва",
