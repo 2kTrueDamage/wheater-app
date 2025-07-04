@@ -5,6 +5,9 @@
     color: rgb(255, 255, 255);
     box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
     max-width: 350px;
+    min-width: 350px;
+    max-height: 250px;
+    min-height: 280px;
     margin: 15px;
     transition: transform 0.3s ease;
 }
@@ -86,4 +89,9 @@
 .detail-item span:last-child {
     font-weight: bold;
     font-size: 18px;
+}
+
+.nav-button {
+    padding: 10px;
+
 }
